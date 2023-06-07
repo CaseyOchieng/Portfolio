@@ -235,21 +235,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/banner-bg.svg');
-
-  
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.tagline:hover{
+scale: 1.1;
+cursor: pointer;
 }
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  transition: all 0.3s ease-in-out;
 }
 .banner h1 {
   font-size: 65px;
@@ -470,7 +472,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -549,9 +551,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: no-repeat;
 }
 .newsletter-bx {
-  background: #FFFFFF;
+  background: black;
   border-radius: 55px;
-  color: #121212;
+  color: #ffff;
   padding: 85px 125px;
   margin-bottom: 80px;
   margin-top: -122px;
