@@ -1,7 +1,5 @@
 .project{
     background-repeat: none;
     background-size: cover;
-    /* background-color: black; */
-    background-image: url('../assets/img/banner-bg4.svg');
-    /* rotate: 180deg; */
+    background-color: rgba(0, 0, 0, 0);
 }
